@@ -6,7 +6,7 @@ export default function ListadoEstaciones() {
   const [cargando, setCargando] = useState(true);
 
   // 1. URL de tu Backend (Flask)
-  const URL_BASE = "http://localhost:8080/api/estaciones";
+  const URL_BASE = "/api/estaciones";
 
   // 2. Cargar las estaciones al iniciar el componente
   useEffect(() => {

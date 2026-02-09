@@ -7,7 +7,7 @@ export default function ClimaDetalle() {
     const [cargando, setCargando] = useState(true);
     const [error, setError] = useState(null);
 
-    const URL_CLIMA = `http://localhost:8080/api/clima/${id}`;
+    const URL_CLIMA = `/api/clima/${id}`;
 
     useEffect(() => {
         fetch(URL_CLIMA)
